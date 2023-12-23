@@ -1,0 +1,11 @@
+.btn {
+    font:inherit;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: pink;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    margin:5px 0 0 0 ;
+
+}
+

@@ -1,0 +1,29 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    width: 20%;
+    height: 100px;
+    align-items: center;
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control.invalid input {
+    border-color:red ;
+    background: #ffd7d7;
+}
+
+.form-control.invalid label {
+    color: red;
+}
+
+/* .form-btn:hover {
+    background-color: blue;
+} */
